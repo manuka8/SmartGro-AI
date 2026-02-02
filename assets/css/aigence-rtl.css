@@ -3826,9 +3826,11 @@ h6 {
   }
 }
 .main-header__logo img {
-  max-width: 100%;
-  height: auto;
+  width: 300px;        /* set your desired logo width */
+  max-width: 100%;    /* prevents overflow */
+  height: auto;       /* keeps aspect ratio */
 }
+
 .main-header__right {
   display: flex;
   align-items: center;
